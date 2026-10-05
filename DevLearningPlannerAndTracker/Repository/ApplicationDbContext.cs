@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using DevLearningPlannerAndTracker.Entities;
 
 namespace DevLearningPlannerAndTracker.Repository
 {
