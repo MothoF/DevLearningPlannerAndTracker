@@ -8,5 +8,11 @@ namespace DevLearningPlannerAndTracker.Repository
         {
 
         }
+
+        public DbSet<Users> users => Set<Users>();
+        public DbSet<Modules> modules => Set<Modules>();
+        public DbSet<Topics> topics => Set<Topics>();
+        public DbSet<Concepts> concepts => Set<Concepts>();
+        public DbSet<UserTasks> userTasks => Set<UserTasks>();
     }
 }
