@@ -15,5 +15,15 @@ namespace DevLearningPlannerAndTracker.Repository
         public DbSet<Topics> topics => Set<Topics>();
         public DbSet<Concepts> concepts => Set<Concepts>();
         public DbSet<UserTasks> userTasks => Set<UserTasks>();
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Users>()
+                .HasKey(
+                    u => u.Username
+                );
+        }
     }
 }

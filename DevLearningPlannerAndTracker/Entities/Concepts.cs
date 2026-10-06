@@ -2,12 +2,12 @@
 {
     public class Concepts
     {
-        string ConceptId { get; set; }
-        string ModuleCode { get; set; }
-        int TopicId { get; set; }
+        public string ConceptId { get; set; }
+        public string ModuleCode { get; set; }
+        public int TopicId { get; set; }
 
-        List<Topics> conceptTopics { get; set; }
-        string ConceptName { get; set; }
+        public List<Topics> conceptTopics { get; set; }
+        public string ConceptName { get; set; }
 
         public Concepts()
         {

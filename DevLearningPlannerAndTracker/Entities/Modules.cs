@@ -2,8 +2,8 @@
 {
     public class Modules
     {
-        string ModuleCode { get; set; }
-        string ModuleName { get; set; }
+        public string ModuleCode { get; set; }
+        public string ModuleName { get; set; }
 
         public Modules() {
             

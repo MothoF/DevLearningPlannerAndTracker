@@ -2,10 +2,10 @@
 {
     public class Topics
     {
-        int TopicId { get; set; }
-        string ModuleCode { get; set; }
-        List<Modules> topicModules { get; set; }
-        string TopicName { get; set; }
+        public int TopicId { get; set; }
+        public string ModuleCode { get; set; }
+        public List<Modules> topicModules { get; set; }
+        public string TopicName { get; set; }
 
         public Topics()
         {
