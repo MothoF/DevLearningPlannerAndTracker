@@ -6,6 +6,8 @@
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
+        public List<UserTasks> userTasks { get; set; }
+
         public Users()
         {
 
