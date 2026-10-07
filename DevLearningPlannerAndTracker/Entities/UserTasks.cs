@@ -3,9 +3,11 @@
     public class UserTasks
     {
         public string Username { get; set; }
-        public List<Users> user { get; set; }
+        //public List<Users> users { get; set; }
+        public Users user;
         public string ConceptId { get; set; }
-        public List<Concepts> concept { get; set; }
+        //public List<Concepts> concepts { get; set; }
+        public Concepts concept;
         public DateTime Deadline { get; set; }
         public string Status { get; set; }
         public string Priority { get; set; }

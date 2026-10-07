@@ -4,7 +4,9 @@
     {
         public int TopicId { get; set; }
         public string ModuleCode { get; set; }
-        public List<Modules> topicModules { get; set; }
+        //public List<Modules> topicModules { get; set; }
+        public Modules topicModule { get; set; }
+        public List<Concepts> topicConcepts { get; set; }
         public string TopicName { get; set; }
 
         public Topics()

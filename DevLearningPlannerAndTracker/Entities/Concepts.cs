@@ -6,8 +6,11 @@
         public string ModuleCode { get; set; }
         public int TopicId { get; set; }
 
-        public List<Topics> conceptTopics { get; set; }
+        //public List<Topics> conceptTopics { get; set; }
+        public Topics conceptTopic { get; set; }
         public string ConceptName { get; set; }
+
+        public List<UserTasks> conceptTasks { get; set; }
 
         public Concepts()
         {
