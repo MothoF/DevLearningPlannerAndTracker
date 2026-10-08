@@ -112,7 +112,6 @@ D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearnin
 D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\staticwebassets.development.json
 D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\swae.build.ex.cache
-D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\DevLearn.1BB92D0D.Up2Date
 D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\DevLearningPlannerAndTracker.dll
 D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\obj\Debug\net10.0\refint\DevLearningPlannerAndTracker.dll

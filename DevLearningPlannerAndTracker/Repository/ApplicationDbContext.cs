@@ -53,7 +53,7 @@ namespace DevLearningPlannerAndTracker.Repository
                 .HasForeignKey(ut => new
                 {
                     ut.Username,
-                    ut.ConceptId
+                    //ut.ConceptId
                 });
 
             modelBuilder.Entity<UserTasks>()
@@ -61,7 +61,7 @@ namespace DevLearningPlannerAndTracker.Repository
                 .WithMany(c => c.conceptTasks)
                 .HasForeignKey(ut => new
                 {
-                    ut.Username,
+                    //ut.Username,
                     ut.ConceptId
                 });
 
