@@ -1,4 +1,6 @@
 is_global = true
+build_property.MSBuildProjectFullPath = D:\coding_projects\Portfolio Projects\C#\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker\DevLearningPlannerAndTracker.csproj
+build_property.XunitTestProjectAOT = false
 build_property.TargetFramework = net10.0
 build_property.TargetFramework = net10.0
 build_property.TargetPlatformMinVersion = 
