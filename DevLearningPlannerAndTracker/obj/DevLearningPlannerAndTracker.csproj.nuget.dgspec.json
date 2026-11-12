@@ -61,6 +61,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "xunit.v3": {
+              "target": "Package",
+              "version": "[4.0.2, )"
             }
           },
           "imports": [
