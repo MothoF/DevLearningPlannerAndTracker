@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevLearningPlannerAndTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9844a140d4a0915b14d1220609879eac8791b40a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe1e122d84818f288cb638ab3869cae4c6d5e4ef")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevLearningPlannerAndTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevLearningPlannerAndTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
