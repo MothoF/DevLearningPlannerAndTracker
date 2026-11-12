@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RW8u5E5HSpc=",
+  "dgSpecHash": "7wHWvuagwI8=",
   "success": true,
   "projectFilePath": "D:\\coding_projects\\Portfolio Projects\\C#\\DevLearningPlannerAndTracker\\DevLearningPlannerAndTracker\\DevLearningPlannerAndTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\10.0.0\\microsoft.aspnetcore.mvc.testing.10.0.0.nupkg.sha512",
+    "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\microsoft.aspnetcore.testhost\\10.0.0\\microsoft.aspnetcore.testhost.10.0.0.nupkg.sha512",
     "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\Tshepo Majoro\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
