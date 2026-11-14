@@ -3,14 +3,16 @@
     using Entities;
     public interface IApplicationRepository
     {
-        public Task<ICollection<UserTasks>> getAll();
+        public Task<ICollection<UserTasks>> getAllTasks(String username);
 
-        public Task<UserTasks> getTaskById(int id);
+        public Task<UserTasks> getTask(String username, String conceptId);
 
-        public Task<bool> updateTask(UserTasks task);
+        public Task<bool> updateTask(UserTasks updatedTask);
 
-        public Task<bool> deleteTask(int id);
+        public Task<bool> deleteTask(String username, String conceptId);
 
         public Task<UserTasks> addTask(UserTasks task);
+
+        //public Task<bool> deleteTasksEnMasse(String username);
     }
 }

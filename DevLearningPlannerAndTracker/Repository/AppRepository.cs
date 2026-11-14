@@ -4,22 +4,27 @@ namespace DevLearningPlannerAndTracker.Repository
 {
     public class AppRepository : IApplicationRepository
     {
-        public Task<bool> deleteTask(int id)
+        public Task<bool> deleteTask(String username, String conceptId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<UserTasks>> getAll()
+        public Task<ICollection<UserTasks>> getAllTasks(String username)
         {
             throw new NotImplementedException();
         }
 
-        public Task<UserTasks> getTaskById(int id)
+        public Task<UserTasks> getTask(String username, String conceptId)
         {
             throw new NotImplementedException();
         }
 
         public Task<bool> updateTask(UserTasks task)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<UserTasks> addTask(UserTasks task)
         {
             throw new NotImplementedException();
         }
