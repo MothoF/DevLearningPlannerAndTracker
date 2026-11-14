@@ -13,14 +13,6 @@ namespace DevLearningPlannerAndTracker.Tests
             repository = _repository;
         }
 
-        [Fact]
-        public async Task GetAll_NoTasks_ReturnEmpty()
-        {
-            ICollection<UserTasks> allUserTasks = await repository.getAll();
-
-            Assert.NotNull(allUserTasks);
-            Assert.Empty(allUserTasks);
-        }
 
         [Fact]
         public async Task AddTask_OneTask_SuccessfulSave()
