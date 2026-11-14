@@ -9,7 +9,7 @@ public class CustomWebApplicationFactory : WebApplicationFactory<Program> {
             services.RemoveAll<ApplicationDbContext>();
             services.RemoveAll<IApplicationRepository>();
 
-            services.AddNpgsql<ApplicationDbContext>(context.Configuration.GetConnectionString("DevPlannerDb"));
+            services.AddNpgsql<ApplicationDbContext>(context.Configuration.GetConnectionString("DevPlannerTestDb"));
             services.AddSingleton<IApplicationRepository, AppRepository>();
         });
     }
